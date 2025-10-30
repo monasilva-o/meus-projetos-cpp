@@ -1,6 +1,6 @@
 CXX = g++
 CXXFLAGS = -Wall -std=c++11
-TARGET = sistema-eventos
+TARGET = meus-projetos-cpp
 SRCDIR = src
 SOURCES = $(wildcard $(SRCDIR)/*.cpp)
 
