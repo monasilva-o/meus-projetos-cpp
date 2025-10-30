@@ -1,114 +1,61 @@
-# \# 🎯 Sistema de Gerenciamento de Eventos em C++
+## 🎯 Sistema de Gerenciamento de Eventos em C++
 
-# 
+Sistema completo para gerenciamento de eventos, participantes e inscrições desenvolvido em C++.
 
-# Sistema completo para gerenciamento de eventos, participantes e inscrições desenvolvido em C++.
+## ✨ Funcionalidades
 
-# 
+- 📝 **Cadastro de Participantes** - Nome, matrícula, curso, email, celular, gênero, idade, tipo, esportes
+- 🎪 **Cadastro de Atividades** - Nome, tipo, local, data, hora, vagas
+- 📋 **Sistema de Inscrições** - Controle de vagas, confirmação de presença
+- ✏️ **Alteração de Dados** - Participantes, atividades e inscrições
+- 📊 **Relatórios** - Por tipo de atividade, participantes esportivos, data
 
-# \## ✨ Funcionalidades
+## 🚀 Como Usar
 
-# 
+## Pré-requisitos
 
-# \- 📝 \*\*Cadastro de Participantes\*\* - Nome, matrícula, curso, email, celular, gênero, idade, tipo, esportes
+- Compilador C++ (g++)
+- Make (opcional)
 
-# \- 🎪 \*\*Cadastro de Atividades\*\* - Nome, tipo, local, data, hora, vagas
+## Compilação e Execução
 
-# \- 📋 \*\*Sistema de Inscrições\*\* - Controle de vagas, confirmação de presença
+```bash
+# Compilar usando Makefile:
+make
 
-# \- ✏️ \*\*Alteração de Dados\*\* - Participantes, atividades e inscrições
+# Executar:
+./meus-projetos-cpp
 
-# \- 📊 \*\*Relatórios\*\* - Por tipo de atividade, participantes esportivos, data
+# Ou usar o atalho:
+make run
 
-# 
+# Compilação manual (se não tiver make):
+g++ -Wall -std=c++11 -o meus-projetos-cpp src/main.cpp
+```
 
-# \## 🚀 Como Usar
+## 🏗️ Estrutura do Projeto
 
-# 
+``` bash
 
-# \### Pré-requisitos
+meus-projetos-cpp/
 
-# \- Compilador C++ (g++)
+├── src/
+│   └── main.cpp             # Código fonte principal
+├── include/                 # Arquivos de cabeçalho (.h)
+├── Makefile                 # Script de compilação automática
+├── README.md                # Este arquivo de documentação
+├── .gitignore               # Arquivos ignorados pelo Git
+└── LICENSE                  # Licença MIT
+```
 
-# \- Make (opcional)
+## Tecnologias Utilizadas
+- Linguagem: C++
+- Estruturas: Arrays, Structs
+- Controle: Loops, Condicionais, Funções
+- Ferramentas: Git, GitHub, Makefile
 
-# 
-
-# \### Compilação e Execução
-
-# 
-
-# ```bash
-
-# \# Compilar usando Makefile:
-
-# make
-
-# 
-
-# \# Executar:
-
-# ./meus-projetos-cpp
-
-# 
-
-# \# Ou usar o atalho:
-
-# make run
-
-# 
-
-# \# Compilação manual (se não tiver make):
-
-# g++ -Wall -std=c++11 -o meus-projetos-cpp src/main.cpp
-
-# 
-
-# ```
-
-# 
-
-# \## 🏗️ Estrutura do Projeto
-
-# 
-
-# ``` bash
-
-# meus-projetos-cpp/
-
-# ├── src/
-
-# │   └── main.cpp             # Código fonte principal
-
-# ├── include/                 # Arquivos de cabeçalho (.h)
-
-# ├── Makefile                 # Script de compilação automática
-
-# ├── README.md                # Este arquivo de documentação
-
-# ├── .gitignore               # Arquivos ignorados pelo Git
-
-# └── LICENSE                  # Licença MIT
-
-# ```
-
-# 
-
-# \## Tecnologias Utilizadas
-
-# \- Linguagem: C++
-
-# \- Estruturas: Arrays, Structs
-
-# \- Controle: Loops, Condicionais, Funções
-
-# \- Ferramentas: Git, GitHub, Makefile
-
-# 
-
-# \## 👤 Autor
-
-# ```markdown
-
-# Monalisa Silva de Oliveira - \[monasilva-o](https://github.com/monasilva-o)
+## 👤 Autor
+```markdown
+Monalisa Silva de Oliveira - [monasilva-o](https://github.com/monasilva-o)
+```
 
